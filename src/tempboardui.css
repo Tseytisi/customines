@@ -1,0 +1,77 @@
+.cell {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #555;
+    color: #ddd;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.cell.hidden {
+    background-color: grey;
+}
+
+.cell.showValue {
+    background-color: lightgrey;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.cell.showValue.showMine {
+    background-color: orange;
+}
+
+.cell.showValue1 {
+    color: #00f;
+}
+
+.cell.showValue2 {
+    color: #080;
+}
+
+.cell.showValue3 {
+    color: #f00;
+}
+
+.cell.showValue4 {
+    color: #08f;
+}
+
+.cell.showValue5 {
+    color: #088;
+}
+
+.cell.showValue6 {
+    color: #808;
+}
+
+.cell.showValue7 {
+    color: #840;
+}
+
+.cell.showValue8 {
+    color: #000;
+}
+
+.cell.showMineExploded {
+    background-color: red;
+}
+
+.cell.flagged {
+    background-color: yellow;
+    color: #222;
+}
+
+.cell.questioned {
+    background-color: purple;
+}
+
+.cell.showInvalidMine {
+    background-color: magenta;
+}
+
+.cellValue {
+    margin: 0px;
+    margin-top: 30px;
+}

@@ -2,6 +2,10 @@
 import { render } from "solid-js/web";
 
 import "./styles.css";
-import App from "./App";
+import {Customines, CustominesProvider} from "./customines.tsx";
 
-render(() => <App />, document.getElementById("root") as HTMLElement);
+render(() =>
+    <CustominesProvider>
+        <Customines />
+    </CustominesProvider>
+    , document.getElementById("root") as HTMLElement);
